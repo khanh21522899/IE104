@@ -1,2 +1,2 @@
 # IE104
-Web
+This is the repo for learning and practicing Web
