@@ -164,8 +164,6 @@
       <a href="https://developer.mozilla.org/en-US/">
         <img alt="mozilla dev"
         src="img/mdn.svg"
-        
-        
         >
       </a>
 
@@ -175,6 +173,17 @@
 
     <div class="red-panda">
       <!-- insert picture element -->
+      <picture>
+        <source
+        srcset="img/red-panda-potrait.png"
+        media="(max-width: 600px)"
+        >
+        <source
+        srcset="img/red-panda-landscape.png"
+        media="(min-width: 600px)"
+        >
+        <img src="img/red-panda-landscape.png" alt="Red panda">
+      </picture>
     </div>
 
   </main>
