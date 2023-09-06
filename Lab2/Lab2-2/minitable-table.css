@@ -1,4 +1,4 @@
-html {
+    html {
     font-family: sans-serif;
     }
     table {
@@ -26,3 +26,6 @@ html {
         caption {
         padding: 10px;
         }
+    .Planet-name{
+        border: 3px solid rgb(0,0,0);
+    }
